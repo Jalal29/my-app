@@ -1,0 +1,164 @@
+{
+  "categories": [
+    {
+      "id": "beauty-packages",
+      "name": "Beauty Packages",
+      "icon": "✨",
+      "shortDesc": "Complete beauty care for your special day",
+      "subtext": "Popular bundled packages with full facilities",
+      "services": [
+        {
+          "name": "Radiant Charm",
+          "price": "999",
+          "description": "Rejuvenating Papaya Facial, De-Tan / Bleach, Upper Lip, Chin, Express Manicure & Pedicure (Cut / File / Massage / Polish), Head Massage, Hair Wash, Hair Trim, Blow Dry / Temporary Straightening / Curls"
+        },
+        {
+          "name": "Luminous Glow",
+          "price": "1499",
+          "description": "Rejuvenating Fruit / Papaya Facial, De-Tan, Upper Lip, Chin, Express Manicure & Pedicure (Cut / File / Massage / Polish), Head Massage, Hair Spa (Includes Hair Wash), Hair Trim, Blow Dry / Temporary Straightening / Curls"
+        },
+        {
+          "name": "Royal Radiance",
+          "price": "1999",
+          "description": "VLCC / Lotus / Aroma Magic Glow Facial, De-Tan / Bleach, Upper Lip, Chin, Express Manicure & Pedicure (Cut / File / Massage / Polish), Head Massage, Hair Spa (Includes Hair Wash), Hair Trim, Blow Dry / Temporary Straightening / Curls"
+        },
+        {
+          "name": "O3+ Spa Bliss",
+          "price": "2499",
+          "description": "Shine & Glow Facial, Upper Lip, Chin, Express Manicure & Pedicure (Cut / File / Massage / Polish), Head Massage, Hair Trim, Hair Spa"
+        },
+        {
+          "name": "O3+ Glow Delux",
+          "price": "1999",
+          "description": "Shine & Glow Facial, Upper Lip, Chin, Express Manicure & Pedicure (Cut / File / Massage / Polish), Head Massage, Hair Trim"
+        },
+        {
+          "name": "O3+ Power Bliss",
+          "price": "2999",
+          "description": "Power Brightening Facial, Upper Lip, Chin, Express Manicure & Pedicure (Cut / File / Massage / Polish), Head Massage, Hair Trim"
+        }
+      ]
+    },
+    {
+      "id": "hair",
+      "name": "Hair Services",
+      "icon": "💇",
+      "shortDesc": "Precision cuts, coloring, and styling",
+      "services": [
+        { "name": "Hair Cut", "price": "500", "duration": "30 min" },
+        { "name": "Hair Styling", "price": "800", "duration": "45 min" },
+        { "name": "Hair Coloring", "price": "2500", "duration": "2 hours" },
+        { "name": "Hair Spa", "price": "1500", "duration": "1 hour" },
+        { "name": "Keratin Treatment", "price": "3500", "duration": "3 hours" }
+      ]
+    },
+    {
+      "id": "facial",
+      "name": "Facial & Skin Care",
+      "icon": "🧖",
+      "shortDesc": "Deep-clean facials from ₹249",
+      "subcategories": [
+        {
+          "id": "facial-general",
+          "name": "Facial",
+          "services": [
+            { "name": "Papaya Clean Up", "price": "249", "duration": "30 min", "description": "A gentle deep-clean treatment using papaya extracts to remove impurities and brighten the skin." },
+            { "name": "Aroma Fruit Facial", "price": "299", "duration": "30-45 min", "description": "A refreshing facial using fruit extracts to hydrate and revitalize tired skin." },
+            { "name": "Lotus White Glow", "price": "649", "duration": "45 min", "description": "Brightening facial formulated with lotus extracts to even skin tone and impart a radiant glow." },
+            { "name": "VLCC Gold Facial", "price": "999", "duration": "60 min", "description": "Instant glow facial enriched with gold-infused products for luminosity and firmness." },
+            { "name": "Aroma Magic Skin Glow", "price": "1100", "duration": "60 min", "description": "A hydrating, nourishing and rejuvenating facial that restores moisture and luminosity." },
+            { "name": "VLCC Diamond Facial", "price": "1199", "duration": "75 min", "description": "Purifying detox facial designed to deeply cleanse, exfoliate and refine skin texture." },
+            { "name": "Aroma Magic Bridal Glow", "price": "1299", "duration": "75-90 min", "description": "A special bridal glow treatment to prepare skin for wedding-day radiance." },
+            { "name": "Amara Signature Facial", "price": "1399", "duration": "60-90 min", "description": "Personalized signature facial; effects are tailored according to your skin type and needs." },
+            { "name": "O3+ Shine & Glow", "price": "1499", "duration": "60-75 min", "description": "Reduces pigmentation and enhances radiance for a luminous complexion." },
+            { "name": "O3+ Power Brightening Facial", "price": "1699", "duration": "75 min", "description": "Hydrating brightening facial designed to reduce dark spots and improve skin clarity." }
+          ]
+        },
+        {
+          "id": "detan",
+          "name": "De-tan",
+          "services": [
+            { "name": "VLCC Papaya De-Tan Facial", "price": "899", "duration": "45-60 min", "description": "Specialized de-tan treatment to reduce tanning and restore an even complexion." },
+            { "name": "Herbal De-Tan Pack", "price": "799", "duration": "45 min", "description": "Natural de-tan therapy using herbal formulations to lighten sun-induced pigmentation." }
+          ]
+        },
+        {
+          "id": "bleach",
+          "name": "Bleach",
+          "subcategories": [
+            {
+              "id": "glow-bleach",
+              "name": "Glow Bleach",
+              "rows": [
+                { "area": "Face", "price": "299" },
+                { "area": "Neck", "price": "249" },
+                { "area": "Back / Full Back", "price": "249/499" },
+                { "area": "Hands", "price": "299" },
+                { "area": "Legs (Half/Full)", "price": "449/599" }
+              ]
+            },
+            {
+              "id": "diamond-bleach",
+              "name": "Diamond Bleach",
+              "rows": [
+                { "area": "Face", "price": "449" },
+                { "area": "Neck", "price": "349" },
+                { "area": "Back / Full Back", "price": "399/599" },
+                { "area": "Hands", "price": "399" },
+                { "area": "Legs (Half/Full)", "price": "549/699" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bridal",
+      "name": "Bridal Packages",
+      "icon": "👰",
+      "shortDesc": "Complete beauty care for your special day",
+      "services": [
+        { "name": "Bridal Makeup", "price": "15000", "duration": "3 hours" },
+        { "name": "Pre-Bridal Package", "price": "25000", "duration": "Multiple sessions" },
+        { "name": "Engagement Makeup", "price": "8000", "duration": "2 hours" },
+        { "name": "Bridal Mehendi", "price": "5000", "duration": "2-3 hours" }
+      ]
+    },
+    {
+      "id": "makeup",
+      "name": "Makeup Services",
+      "icon": "💄",
+      "shortDesc": "Professional bridal and event makeup",
+      "services": [
+        { "name": "Party Makeup", "price": "3500", "duration": "1.5 hours" },
+        { "name": "HD Makeup", "price": "5000", "duration": "2 hours" },
+        { "name": "Airbrush Makeup", "price": "6000", "duration": "2 hours" },
+        { "name": "Casual Makeup", "price": "2000", "duration": "1 hour" }
+      ]
+    },
+    {
+      "id": "spa",
+      "name": "Spa & Wellness",
+      "icon": "🧘",
+      "shortDesc": "Relaxing massages and body treatments",
+      "services": [
+        { "name": "Body Massage", "price": "2000", "duration": "60 min" },
+        { "name": "Head Massage", "price": "800", "duration": "30 min" },
+        { "name": "Aromatherapy", "price": "2500", "duration": "75 min" },
+        { "name": "Body Polishing", "price": "3000", "duration": "90 min" }
+      ]
+    },
+    {
+      "id": "nails",
+      "name": "Nail Care",
+      "icon": "💅",
+      "shortDesc": "Pampering manicures and pedicures",
+      "services": [
+        { "name": "Manicure", "price": "600", "duration": "45 min" },
+        { "name": "Pedicure", "price": "800", "duration": "60 min" },
+        { "name": "Gel Nails", "price": "1500", "duration": "90 min" },
+        { "name": "Nail Art", "price": "500", "duration": "30 min" }
+      ]
+    }
+  ]
+}

@@ -102,7 +102,10 @@ export async function createServicesSection() {
   section.className = 'services-section';
   
   try {
-    const response = await fetch('/src/data/services.json');
+    const response = await fetch('/data/services.json');
+    if (!response.ok) {
+      throw new Error(`Failed to load services data (${response.status})`);
+    }
     const data = await response.json();
     
     // Render featured package first (if present)
